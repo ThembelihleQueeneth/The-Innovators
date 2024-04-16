@@ -1,46 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="styles.css">
-    
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: hsl(315, 86%, 46%);
+  color: #eae7f1;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+body{
+margin:0;
+padding:0;
+background: blue;
+}
+</style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="Innovators.png" alt="Company Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About us.html">About Us</a></li>
-                <li><a href="Contact us.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+
+  
+  <nav>
+    <ul>
+
+    <li><a href = "contact us.html">contact Us</a></li>
+    <li><a href = "about us.html">about Us</a></li>
+    <li><a href = "index.html"> Home</a></li>
+    </ul>
+    </nav>
+    
+
+<h2>Types of AI</h2>
+<style>
+  div{
+    display: inline-block;
+  }
+</style>
+<body>
+<div>
+<p>press button</p>
+<button type="button" class="collapsible">Narrow AI      > </button>
+<div class="content">
+  <p>This type of AI is designed to perform <br>a narrow task (e.g., facial recognition, <br>internet searches, or driving a car). <br>Most current AI systems, including those that <br>can play complex games like chess and Go, fall<br> under this category. They operate under a <br>limited pre-defined range or set of contexts.</p>
+  </h2>
+</div>
+</div>
+
+<div>
+<p></p>
+<button type="button" class="collapsible">General AI (Strong AI)  ></button>
+<div class="content">
+  <p>A type of AI endowed with broad<br>human-like cognitive capabilities, <br>enabling it to tackle new and unfamiliar <br> tasks autonomously. Such a robust AI framework<br> possesses the capacity to discern, assimilate,<br> and utilize its intelligence to resolve any <br>challenge without needing human guidance</p>
+
+  </h2>
+</div>
+</div>
+
+<div>
+<p></p>
+<button type="button" class="collapsible">Super intelligent AI     ></button>
+<div class="content">
+  <p>This represents a future form of AI where <br>machines could surpass human intelligence across <br> all fields, including creativity, general wisdom, <br>and problem-solving. Superintelligence is speculative <br>and not yet realized.
+
+  </p>
+</div>
+</div>
 </body>
-</html>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}b
+</script>
+<br>
+<br>
+<br>
+<div>
+<a  <li><a href = "contact us.html"> <button>who are we?</a></li>
+ </button>
+</a>
+
+<a  <li><a href = "contact us.html"> <button>what we do</a></li>
+</button>
+</a>
+
+</div>
+<nav>
+  <ul>
+
+  </body>
+  </html>
+  
 
 
-
-
-<br><br><br><Br><br><br><br><Br><br><br><br><Br><br><br><br><Br><br><br><br><Br><br><br><br><Br>
-    <footer>
-        <div class="social-icons">
-            <a href="https://www.facebook.com/share/VWoohANWSuhVqTZT/?mibextid=ox5AEW"><img src="facebook.jpg" alt="Facebook"></a>
-            <a href="https://x.com/larfee1?s=11"><img src="twitter.jpg" alt="Twitter"></a>
-            <a href="http://linkedin.com/in/rotondwa-ramadwa-56059b200"><img src="linkedin.jpg" alt="LinkedIn"></a>
-        </div>
-        <div class="contact-info">
-            <span>Contact: 0608380859</span>
-            <span>Email: Innovators@gmail.com</span>
-        </div>
-        <div class="copyright">
-            <span>&copy; 2024 Innovators. All rights reserved.</span>
-        </div>
-    </footer>
-</body>
+</ody>
 </html>
